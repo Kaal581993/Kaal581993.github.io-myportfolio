@@ -1,0 +1,148 @@
+
+.landing-grid{
+  background: #43cea2;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #185a9d, #43cea2);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #185a9d, #43cea2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+  .header-color {
+    background: #43cea2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #185a9d, #43cea2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #185a9d, #43cea2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+.menu-drawer{
+  background: #43cea2;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #185a9d, #005d3f);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #185a9d, #005d3f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+}
+
+
+
+.landing-grid{
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.bread-crumbs{
+  margin:1%;
+  color: red;
+}
+
+.avatar-img{
+  height: auto;
+  width: 15%;
+  align-items: center;
+  padding-top: 1em;
+/*  border-radius: 10em ;*/
+}
+
+.about-avatar-img{
+
+    height: auto;
+    width: 15%;
+    align-items: center;
+    padding-top: 1em;
+    border-radius: 3em  3em 1em 1em;
+}
+.banner-text{
+  width:80%;
+  background-color: white;
+  opacity: .4;
+  margin: auto;
+  text-align: center;
+  border-radius: 620px 620px 3rem 3rem;
+}
+
+.banner-text h1{
+  font-size: 66px;
+  font-weights: bold;
+  color: #2b5161;
+}
+
+.banner-text hr{
+  border-top: 5px dotted #2b5161;
+  width: 70%;
+  margin-top: 1%;
+  margin: auto;
+}
+
+.banner-text p{
+  color: #2b5161;
+  margin: auto;
+  font-size: 20px;
+  padding: 0.5em;
+}
+
+.social-links{
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.social-links i{
+  color: #2b5161;
+  font-size: 5em;
+  padding: 8px;
+}
+
+/*
+------------------------------------------------Contact Page CSS----------------------------------------------
+*/
+
+.contact-body{
+  margin:auto;
+  position:fixed;width:100%;
+  height:100%;
+  justify-content: center;
+  padding-top:2em;
+}
+.contact-grid{
+  text-align: center;justify-content: center;
+  width:80%; height:550px;
+  background: white;
+   margin-bottom: 20px;
+}
+.contact-avatar-img{
+  height: auto;
+  width: 45%;
+  height:50%;
+  align-items: center;
+  padding-top: 1em;
+ border-radius: 2em 2em 1em 1em ;
+}
+.contact-grid h3{
+  font-family: 'Anton', san-serif;
+}
+.contact-grid p{
+  font-family: 'Oxygen', san-serif;/*Other imported fonts: Aryo Cairo*/
+  font-weight: bold;
+
+}
+.contact-grid hr{
+  border-top: 2px dotted black;
+  width:80%;
+  margin:auto;
+}
+
+.contact-list i{
+  font-size: 30px;
+  padding-right: 5rem;
+}
+/*
+------------------------------------------------Contact Page CSS----------------------------------------------
+*/
+
+/*
+-----------------------------------------------Resume Page CSS------------------------------------------------
+*/
+.resume-right-col{
+  background: #27221F;
+  color: white;
+  padding: 2em;
+}
